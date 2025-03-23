@@ -15,9 +15,10 @@ function App() {
   }
   return (
     <>
-     <div id="calculator">
-      <input type="text" placeholder="0"/>
-      <div id="keys">
+  
+     <div className="bg-[hsl(0,0%,15%)] rounded-xl max-w-lg overflow-hidden " id="calculator">
+      <input className="w-full p-5 text-6xl bg-[hsl(0,0%,20%)] text-white " type="text" placeholder="0"/>
+      <div className=" grid grid-cols-4 gap-2 p-6" id="keys">
         <button onClick={appendToDisplay('+')}>+</button>
         <button onClick={appendToDisplay('7')}>7</button>
         <button onClick={appendToDisplay('8')}>8</button>
