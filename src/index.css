@@ -63,7 +63,36 @@ button:hover{
 button:active{
   background-color: hsla(0, 0%, 50%);
 }
+.operator {
+  background-color: hsl(35, 100%, 55%);
+}
 
+.operator:hover{
+  background-color: hsl(35, 100%, 65%);
+
+}
+.operator:active{
+  background-color: hsl(35, 100%, 75%);
+
+}
+
+.lighter-buttons{
+  background-color: hsla(0, 0%, 50%);
+  
+}
+
+
+
+.lighter-buttons:hover{
+  background-color: hsla(0, 0%, 60%);
+  
+}
+
+
+.lighter-buttons:active{
+  background-color: hsla(0, 0%, 70%);
+  
+}
 
 @media (prefers-color-scheme: light) {
   :root {
