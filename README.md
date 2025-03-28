@@ -11,7 +11,7 @@ A simple, elegant calculator web application built with React and Tailwind CSS. 
 - 🛡️ Error handling for invalid expressions
 
 ## 📸 Screenshot
-![Calculator App Screenshot](/screenshot/initial-view.png)
+![Calculator App Screenshot](/screenshots/initial-view.png)
 
 ## 🛠️ Technologies Used
 - ⚛️ React
