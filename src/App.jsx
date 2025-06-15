@@ -21,9 +21,14 @@ function App() {
 
   function calculate() {
     let expression = display.replace(/×/g, "*").replace(/÷/g, "/");
-
     try {
-      setDisplay(eval(expression).toString());
+      let result = eval(expression);
+
+      if (isNaN(result) || !isFinite(result)) {
+        setDisplay("Error");
+      } else {
+        setDisplay(result.toString());
+      }
     } catch {
       setDisplay("Error");
     }
