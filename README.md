@@ -1,76 +1,82 @@
-# 🧮 React Calculator App
+# 📱 iPhone Calculator (Mock)
 
-## 📝 Description
-A simple, elegant calculator web application built with React and Tailwind CSS. This calculator provides basic arithmetic operations with a clean, modern design. 🚀
+🔗 **Live Demo:** [https://mock-calc.netlify.app/](https://mock-calc.netlify.app/)
+
+## 🧮 Overview
+
+A **mock iPhone-style calculator** built with React that replicates the look and basic behaviour of the native iOS calculator. The project focuses on UI accuracy, clean component structure, and handling user input logic in a predictable way.
+
+This calculator supports core arithmetic operations and provides a familiar, mobile-inspired user experience.
 
 ## ✨ Features
-- 🔢 Perform addition, subtraction, multiplication, and division
-- 📊 Modulus calculation
-- ➕➖ Sign toggle (+/-)
-- 🗑️ Clear display (AC)
-- 🛡️ Error handling for invalid expressions
 
-## 📸 Screenshot
-![Calculator App Screenshot](/screenshots/initial-view.png)
+* ➕➖✖️➗ Basic arithmetic operations
+* 🔢 Number input handling
+* 🧼 Clear / reset functionality
+* 📱 iPhone-inspired UI layout
+* 🧠 Simple calculation logic
+* 📐 Responsive design
 
-## 🛠️ Technologies Used
-- ⚛️ React
-- 🌬️ Tailwind CSS
-- ⚡ Vite
+## 🛠️ Tech Stack
 
-## 🔧 Installation
+* ⚛️ React
+* 🟨 JavaScript
+* 🎨 CSS
+* ⚡ Vite
 
-1. Clone the repository
-```bash
-git clone [https://github.com/denichinv/iphone-calculator.git]
-cd iphone-calculator
-```
+## 🚀 Getting Started
 
-2. Install dependencies
-```bash
-npm install
-```
+Follow these steps to run the project locally:
 
-3. Run the development server
-```bash
-npm run dev
-```
+1. **Clone the repository**
 
-## 📂 Project Structure
-```
-iphone-calculator/
-│
-├── src/
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
-│
-├── screenshot/
-│   └── calculator-screenshot.png
-│
-├── index.html
-└── package.json
-```
+   ```bash
+   git clone https://github.com/denichinv/iphone-calculator.git
+   ```
 
-## 🧩 Key Components
-- `App.jsx`: Main component handling calculator logic
-- `index.css`: Tailwind CSS and custom styling
-- `main.jsx`: React application entry point
+2. **Navigate into the project directory**
 
-## 🎮 Functionality
-- 🔢 Number buttons (0-9)
-- 🧮 Operator buttons (+, -, ×, ÷)
-- 📍 Decimal point
-- 📊 Modulus calculation
-- ➕➖ Sign toggle
-- 🗑️ All Clear (AC)
-- ✅ Equals (=) button with result display
+   ```bash
+   cd iphone-calculator
+   ```
 
-## 🎨 Styling
-- 🌚 Dark theme with responsive design
-- ⭕ Circular buttons
-- 🌈 Distinctive colors for different button types
-- 👆 Hover and active states for interactive feedback
+3. **Install dependencies**
 
-## 🔬 Customization
-You can easily modify the styling in `index.css` or adjust the calculator's functionality in `App.jsx`. 🛠️
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+The application will be available at the local address shown in your terminal (usually `http://localhost:5173`).
+
+## ▶️ Usage
+
+* Tap number buttons to input values
+* Use operation buttons to perform calculations
+* Press **C** to reset the calculator
+* Results are displayed instantly after calculation
+
+## 🎛️ Customization
+
+You can extend or refine this project by:
+
+* ➕ Adding decimal support
+* 🔄 Improving chained operations
+* 🎨 Refining animations or button styles
+* 🧩 Splitting logic into reusable hooks or utilities
+
+## 📌 About
+
+This project was built to practice:
+
+* React component structure
+* Handling user input and state
+* Implementing calculation logic
+* Recreating real-world UI designs
+
+🔗 **Live Demo:** [https://mock-calc.netlify.app/](https://mock-calc.netlify.app/)
